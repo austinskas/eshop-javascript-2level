@@ -1,32 +1,76 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <link rel="stylesheet" type="text/css" href="style.css">
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-    </head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <body>
+<head>
+    <meta charset="utf-8">
+    <title>RAY-BAN | Shop </title>
+</head>
+
+<body>
+
+    <header>
+        <ul id="test" class="nav nav-pills justify-content-center">
+        <li class="logo1">
+        <img class="logo1"  src="./image/logo1.jpg">
+    </li>
 
 
-<div class="card">
-<input id="insert" type="text" name="" value="Firstname" placeholder="Full name"/>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Women</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Men</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Kids</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contacts</a>
+            </li>
+
+            <li class="cart-logo-show">
+            <img id="btn1" src="./image/cart.png">
+        </li>
+
+        </ul>
+
+    </header>
+
+
+    <div class="products"> <!-- produktu piesimas index psl -->
+
+    </div><!-- products -->
+
+
+
+    <div id="myDiv" class="shopping-cart-close">
+         <div class="shopping-cart-head">
+           <span class="product-quantity">0</span> Product(s) in Cart
+         </div>
+         <ul class="shopping-cart-list">
+         </ul>
+         <div class="cart-buttons">
+           <a href="#0" class="button empty-cart-btn">Empty</a>
+           <a href="#0" class="button cart-checkout">Checkout - <span class="total-price">$0</span></a>
+         </div>
+       </div>
+     </div><!-- container -->
+
+
+<footer class="footer">
+
+<div>
+<span class="copy">Copyright by Arnas </span>
 </div>
 
+</footer>
+
+            <script type="text/javascript" src="bootstrap.min.js"></script>
+            <script type="text/javascript" src="script.js"></script>
 
 
-<div class="button_box">
+</body>
 
-<p id="demo"></p>
-
-<button  id="addName" class="button" type="button" name="button">Add Guest end</button>
-<button  id="addStart"  class="button" type="button" name="button">Add Guest start</button>
-<button  id="removeFirst" class="button" type="button" name="button">Remove first</button>
-<button  id="removeLast" class="button" type="button" name="button"> Remove last</button>
-<button  id="reverse" class="button" type="button" name="button">Reverse list</button>
-</div>
-
-<script type="text/javascript" src="script.js"></script>
-
-    </body>
 </html>
